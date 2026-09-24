@@ -6,7 +6,7 @@ An end-to-end data analytics project: real historical weather data is pulled fro
 
 ---
 
-## 📌 Business Problem
+## Business Problem
 
 Weather directly affects agriculture, energy demand, logistics, tourism and urban planning. This project answers questions such as:
 
@@ -17,7 +17,7 @@ Weather directly affects agriculture, energy demand, logistics, tourism and urba
 
 ---
 
-## 🗂️ Data Source
+##  Data Source
 
 | Item | Details |
 |------|---------|
@@ -31,7 +31,7 @@ Data was extracted with `src/api_ingestion.py`, a config-driven script (`CITIES`
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python** (pandas, requests, SQLAlchemy): ingestion, cleaning, ETL
 - **PostgreSQL**: data warehouse (star schema), managed via pgAdmin
@@ -40,7 +40,7 @@ Data was extracted with `src/api_ingestion.py`, a config-driven script (`CITIES`
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
 ```
 Open-Meteo API → Raw Data (CSV) → Python Cleaning → PostgreSQL (Star Schema) → Power BI (Model + DAX) → Dashboard & Insights
